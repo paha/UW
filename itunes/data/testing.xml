@@ -1,0 +1,2153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Application Version</key><string>9.0.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/Users/example/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>305A5304B803C2B1</string>
+	<key>Tracks</key>
+	<dict>
+		<key>66</key>
+		<dict>
+			<key>Track ID</key><integer>66</integer>
+			<key>Name</key><string>Arabian Nights</string>
+			<key>Artist</key><string>Bruce Adler</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1898624</integer>
+			<key>Total Time</key><integer>79725</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:44Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>190</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>35</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>5CDFC933F38D476A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/01%20-%20Bruce%20Adler%20-%20Arabian%20Nights.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>68</key>
+		<dict>
+			<key>Track ID</key><integer>68</integer>
+			<key>Name</key><string>Legend Of The Lamp</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1951872</integer>
+			<key>Total Time</key><integer>85289</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:44Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>182</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>82B9CC06A99D0B21</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/02%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Legend%20Of%20The%20Lamp.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>70</key>
+		<dict>
+			<key>Track ID</key><integer>70</integer>
+			<key>Name</key><string>One Jump Ahead</string>
+			<key>Artist</key><string>Brad Kane</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3534976</integer>
+			<key>Total Time</key><integer>142550</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:44Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>198</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>41</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>5CF4639C7E1D1342</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/03%20-%20Brad%20Kane%20-%20One%20Jump%20Ahead.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>72</key>
+		<dict>
+			<key>Track ID</key><integer>72</integer>
+			<key>Name</key><string>Street Urchins</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2750592</integer>
+			<key>Total Time</key><integer>113240</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:45Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>B0CDB8917E233349</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/04%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Street%20Urchins.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>74</key>
+		<dict>
+			<key>Track ID</key><integer>74</integer>
+			<key>Name</key><string>One Jump Ahead (Reprise)</string>
+			<key>Artist</key><string>Brad Kane</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1329280</integer>
+			<key>Total Time</key><integer>60055</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:45Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>176</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>12</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>615CCA78CA29A200</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/05%20-%20Brad%20Kane%20-%20One%20Jump%20Ahead%20(Reprise).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>76</key>
+		<dict>
+			<key>Track ID</key><integer>76</integer>
+			<key>Name</key><string>Friend Like Me</string>
+			<key>Artist</key><string>Robin Williams</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3553408</integer>
+			<key>Total Time</key><integer>147853</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:45Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>04F050E244A15C4A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/06%20-%20Robin%20Williams%20-%20Friend%20Like%20Me.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>78</key>
+		<dict>
+			<key>Track ID</key><integer>78</integer>
+			<key>Name</key><string>To Be Free</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2451584</integer>
+			<key>Total Time</key><integer>99317</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:45Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>197</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>A712965D6AC8E842</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/07%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20To%20Be%20Free.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>80</key>
+		<dict>
+			<key>Track ID</key><integer>80</integer>
+			<key>Name</key><string>Prince Ali</string>
+			<key>Artist</key><string>Robin Williams</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4346077</integer>
+			<key>Total Time</key><integer>171937</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:46Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>202</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>E78E21B5C495C65C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/08%20-%20Robin%20Williams%20-%20Prince%20Ali.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>82</key>
+		<dict>
+			<key>Track ID</key><integer>82</integer>
+			<key>Name</key><string>A Whole New World</string>
+			<key>Artist</key><string>Brad Kane &#38; Lea Salonga</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3782784</integer>
+			<key>Total Time</key><integer>160966</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:46Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>187</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Sort Name</key><string>Whole New World</string>
+			<key>Persistent ID</key><string>F5B1741616267C89</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/09%20-%20Brad%20Kane%20&#38;%20Lea%20Salonga%20-%20A%20Whole%20New%20World.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>84</key>
+		<dict>
+			<key>Track ID</key><integer>84</integer>
+			<key>Name</key><string>Jafar's Hour</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4106368</integer>
+			<key>Total Time</key><integer>163082</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:47Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>201</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>B2D6FD934E66CE79</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/10%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Jafar's%20Hour.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>86</key>
+		<dict>
+			<key>Track ID</key><integer>86</integer>
+			<key>Name</key><string>Prince Ali (Reprise)</string>
+			<key>Artist</key><string>Jonathan Freeman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1646720</integer>
+			<key>Total Time</key><integer>67840</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:47Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>7FC2FE2BBF24072C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/11%20-%20Jonathan%20Freeman%20-%20Prince%20Ali%20(Reprise).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>88</key>
+		<dict>
+			<key>Track ID</key><integer>88</integer>
+			<key>Name</key><string>The Ends Of The Earth</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2353280</integer>
+			<key>Total Time</key><integer>95190</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:48Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>197</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Sort Name</key><string>Ends Of The Earth</string>
+			<key>Persistent ID</key><string>1992B842579DABDA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/12%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20The%20Ends%20Of%20The%20Earth.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>90</key>
+		<dict>
+			<key>Track ID</key><integer>90</integer>
+			<key>Name</key><string>The Kiss</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2676864</integer>
+			<key>Total Time</key><integer>111177</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:48Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Sort Name</key><string>Kiss</string>
+			<key>Persistent ID</key><string>2302BF06365A7B73</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/13%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20The%20Kiss.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>92</key>
+		<dict>
+			<key>Track ID</key><integer>92</integer>
+			<key>Name</key><string>On A Dark Night</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4294874</integer>
+			<key>Total Time</key><integer>175777</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:49Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>195</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>60B8025C7774238B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/14%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20On%20A%20Dark%20Night.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>94</key>
+		<dict>
+			<key>Track ID</key><integer>94</integer>
+			<key>Name</key><string>Jasmine Runs Away</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1122488</integer>
+			<key>Total Time</key><integer>46994</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:49Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>190</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>A84450F79D1769EC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/15%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Jasmine%20Runs%20Away.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>96</key>
+		<dict>
+			<key>Track ID</key><integer>96</integer>
+			<key>Name</key><string>Marketplace</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3883136</integer>
+			<key>Total Time</key><integer>157309</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:49Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>197</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>F97EEBAE23F2D854</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/16%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Marketplace.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>98</key>
+		<dict>
+			<key>Track ID</key><integer>98</integer>
+			<key>Name</key><string>The Cave Of Wonders</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7506048</integer>
+			<key>Total Time</key><integer>297926</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:50Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>201</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Sort Name</key><string>Cave Of Wonders</string>
+			<key>Persistent ID</key><string>B25736334AA338D7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/17%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20The%20Cave%20Of%20Wonders.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>100</key>
+		<dict>
+			<key>Track ID</key><integer>100</integer>
+			<key>Name</key><string>Aladdin's Word</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2709632</integer>
+			<key>Total Time</key><integer>111725</integer>
+			<key>Track Number</key><integer>18</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:51Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>193</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>12E45E0E032D1D49</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/18%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Aladdin's%20Word.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>102</key>
+		<dict>
+			<key>Track ID</key><integer>102</integer>
+			<key>Name</key><string>The Battle</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5558400</integer>
+			<key>Total Time</key><integer>219794</integer>
+			<key>Track Number</key><integer>19</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:51Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>202</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Sort Name</key><string>Battle</string>
+			<key>Persistent ID</key><string>2D053FDD23D133D6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/19%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20The%20Battle.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>104</key>
+		<dict>
+			<key>Track ID</key><integer>104</integer>
+			<key>Name</key><string>Happy End In Agrabah</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6258816</integer>
+			<key>Total Time</key><integer>255660</integer>
+			<key>Track Number</key><integer>20</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:52Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>195</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Persistent ID</key><string>C22A95FBB5622C49</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/20%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20Happy%20End%20In%20Agrabah.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>106</key>
+		<dict>
+			<key>Track ID</key><integer>106</integer>
+			<key>Name</key><string>A Whole New World (Aladdin's Theme)</string>
+			<key>Artist</key><string>Peabo Bryson Regina Belle, &#38; David Friedman</string>
+			<key>Album</key><string>Aladdin (OST)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5273728</integer>
+			<key>Total Time</key><integer>245080</integer>
+			<key>Track Number</key><integer>21</integer>
+			<key>Year</key><integer>1992</integer>
+			<key>Date Modified</key><date>2005-10-22T05:42:53Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:40Z</date>
+			<key>Bit Rate</key><integer>172</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Comments</key><string>ÜberStandard - UberNet.org</string>
+			<key>Sort Name</key><string>Whole New World (Aladdin's Theme)</string>
+			<key>Persistent ID</key><string>20F6C4ADA85DA3DB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Aladdin%20(OST)/21%20-%20Peabo%20Bryson%20Regina%20Belle,%20&#38;%20David%20Friedman%20-%20A%20Whole%20New%20World%20(Aladdin's%20Theme).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>208</key>
+		<dict>
+			<key>Track ID</key><integer>208</integer>
+			<key>Name</key><string>Dialogue 1-1</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>489600</integer>
+			<key>Total Time</key><integer>30432</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:22Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2D63B44F2562D7C5</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/01%20-%20Dialogue%201-1.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>210</key>
+		<dict>
+			<key>Track ID</key><integer>210</integer>
+			<key>Name</key><string>Tank! (TV Edit)</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2572416</integer>
+			<key>Total Time</key><integer>91846</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:22Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>223</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2347B613960A8F5F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/02%20-%20Tank!%20(TV%20Edit).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>212</key>
+		<dict>
+			<key>Track ID</key><integer>212</integer>
+			<key>Name</key><string>Dialogue 1-2</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>254080</integer>
+			<key>Total Time</key><integer>15751</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:23Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9944ED145D6D03D0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/03%20-%20Dialogue%201-2.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>214</key>
+		<dict>
+			<key>Track ID</key><integer>214</integer>
+			<key>Name</key><string>Want It All Back (clavient hater version)</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6893696</integer>
+			<key>Total Time</key><integer>240431</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:23Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>229</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5E07816AEDC054E3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/04%20-%20Want%20It%20All%20Back%20(clavient%20hater%20version).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>216</key>
+		<dict>
+			<key>Track ID</key><integer>216</integer>
+			<key>Name</key><string>Sax Quartet</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6385792</integer>
+			<key>Total Time</key><integer>240483</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:24Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>212</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F9B645B6AC80B1D7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/05%20-%20Sax%20Quartet.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>218</key>
+		<dict>
+			<key>Track ID</key><integer>218</integer>
+			<key>Name</key><string>Dialogue 1-3</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>442496</integer>
+			<key>Total Time</key><integer>26775</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:24Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>131</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4743017EC4134C93</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/06%20-%20Dialogue%201-3.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>220</key>
+		<dict>
+			<key>Track ID</key><integer>220</integer>
+			<key>Name</key><string>Encore un verre</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4223104</integer>
+			<key>Total Time</key><integer>169090</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:24Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>199</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F566F4A3C7A7F532</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/07%20-%20Encore%20un%20verre.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>222</key>
+		<dict>
+			<key>Track ID</key><integer>222</integer>
+			<key>Name</key><string>March for Koala</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1357952</integer>
+			<key>Total Time</key><integer>60473</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:24Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>179</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B05F5A38BF004155</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/08%20-%20March%20for%20Koala.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>224</key>
+		<dict>
+			<key>Track ID</key><integer>224</integer>
+			<key>Name</key><string>Dialogue 1-4</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>362624</integer>
+			<key>Total Time</key><integer>22491</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:24Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B14A20C8F16E7228</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/09%20-%20Dialogue%201-4.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>226</key>
+		<dict>
+			<key>Track ID</key><integer>226</integer>
+			<key>Name</key><string>Felt Tip Pen</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3876992</integer>
+			<key>Total Time</key><integer>158981</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:25Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>014DE05FB1C96B7C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/10%20-%20Felt%20Tip%20Pen.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>228</key>
+		<dict>
+			<key>Track ID</key><integer>228</integer>
+			<key>Name</key><string>The Egg and You</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5859456</integer>
+			<key>Total Time</key><integer>218488</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:25Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>214</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Egg and You</string>
+			<key>Persistent ID</key><string>071EBE236BD51825</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/11%20-%20The%20Egg%20and%20You.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>230</key>
+		<dict>
+			<key>Track ID</key><integer>230</integer>
+			<key>Name</key><string>Dialogue 1-5</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>393335</integer>
+			<key>Total Time</key><integer>24320</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:25Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0ECD38B60B579120</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/12%20-%20Dialogue%201-5.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>232</key>
+		<dict>
+			<key>Track ID</key><integer>232</integer>
+			<key>Name</key><string>Pot City II (Yab's Dub)</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3524736</integer>
+			<key>Total Time</key><integer>138240</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:26Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>203</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6194A66F0BDBB579</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/13%20-%20Pot%20City%20II%20(Yab's%20Dub).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>234</key>
+		<dict>
+			<key>Track ID</key><integer>234</integer>
+			<key>Name</key><string>Dialogue 1-6</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>733226</integer>
+			<key>Total Time</key><integer>36858</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:26Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>158</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A8F7C67931B9746D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/14%20-%20Dialogue%201-6.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>236</key>
+		<dict>
+			<key>Track ID</key><integer>236</integer>
+			<key>Name</key><string>NY RUSH</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8235136</integer>
+			<key>Total Time</key><integer>303020</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:27Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>217</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>789CF8F5F2F5AF39</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/15%20-%20NY%20RUSH.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>238</key>
+		<dict>
+			<key>Track ID</key><integer>238</integer>
+			<key>Name</key><string>Dialogue 1-7</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>149632</integer>
+			<key>Total Time</key><integer>9221</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:27Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9BAA22BA8C9CD08E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/16%20-%20Dialogue%201-7.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>240</key>
+		<dict>
+			<key>Track ID</key><integer>240</integer>
+			<key>Name</key><string>Fe</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2818176</integer>
+			<key>Total Time</key><integer>118151</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:27Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>190</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>618F48B7958F25AD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/17%20-%20Fe.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>242</key>
+		<dict>
+			<key>Track ID</key><integer>242</integer>
+			<key>Name</key><string>PIANO BLACK</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4751488</integer>
+			<key>Total Time</key><integer>167262</integer>
+			<key>Track Number</key><integer>18</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:28Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>227</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5501DC6CBC82AC26</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/18%20-%20PIANO%20BLACK.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>244</key>
+		<dict>
+			<key>Track ID</key><integer>244</integer>
+			<key>Name</key><string>Dialogue 1-8</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>180352</integer>
+			<key>Total Time</key><integer>11023</integer>
+			<key>Track Number</key><integer>19</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:28Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>129</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1C43F1D5B2A9BB8A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/19%20-%20Dialogue%201-8.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>246</key>
+		<dict>
+			<key>Track ID</key><integer>246</integer>
+			<key>Name</key><string>Spokey Dorkey (alternate take)</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5191808</integer>
+			<key>Total Time</key><integer>272457</integer>
+			<key>Track Number</key><integer>20</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:29Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>152</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D64233A0B50A9DC9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/20%20-%20Spokey%20Dorkey%20(alternate%20take).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>248</key>
+		<dict>
+			<key>Track ID</key><integer>248</integer>
+			<key>Name</key><string>Forever Broke</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4710528</integer>
+			<key>Total Time</key><integer>193593</integer>
+			<key>Track Number</key><integer>21</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:29Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1CDE574BF49940A5</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/21%20-%20Forever%20Broke.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>250</key>
+		<dict>
+			<key>Track ID</key><integer>250</integer>
+			<key>Name</key><string>Dialogue 1-9</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>166016</integer>
+			<key>Total Time</key><integer>10031</integer>
+			<key>Track Number</key><integer>22</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:29Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>130</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>49FCAD3BEEE78985</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/22%20-%20Dialogue%201-9.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>252</key>
+		<dict>
+			<key>Track ID</key><integer>252</integer>
+			<key>Name</key><string>Road to the West (with rhythm)</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4145280</integer>
+			<key>Total Time</key><integer>172982</integer>
+			<key>Track Number</key><integer>23</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:30Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>191</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>25D2DD8EEAEE0DE6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/23%20-%20Road%20to%20the%20West%20(with%20rhythm).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>254</key>
+		<dict>
+			<key>Track ID</key><integer>254</integer>
+			<key>Name</key><string>Dialogue 1-10</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>499840</integer>
+			<key>Total Time</key><integer>28682</integer>
+			<key>Track Number</key><integer>24</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:30Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>138</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EA48B00B9DCF713A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/24%20-%20Dialogue%201-10.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>256</key>
+		<dict>
+			<key>Track ID</key><integer>256</integer>
+			<key>Name</key><string>Meteor</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2625664</integer>
+			<key>Total Time</key><integer>110576</integer>
+			<key>Track Number</key><integer>25</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:30Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>189</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>407C88E4844A7136</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/25%20-%20Meteor.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>258</key>
+		<dict>
+			<key>Track ID</key><integer>258</integer>
+			<key>Name</key><string>Dialogue 1-11</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>147584</integer>
+			<key>Total Time</key><integer>9090</integer>
+			<key>Track Number</key><integer>26</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:31Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Persistent ID</key><string>27A3665E9EC16D69</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/26%20-%20Dialogue%201-11.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>260</key>
+		<dict>
+			<key>Track ID</key><integer>260</integer>
+			<key>Name</key><string>DIGGING MY POTATO</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5941376</integer>
+			<key>Total Time</key><integer>254667</integer>
+			<key>Track Number</key><integer>27</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:31Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>186</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Persistent ID</key><string>DD698C3F0C1B86F0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/27%20-%20DIGGING%20MY%20POTATO.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>262</key>
+		<dict>
+			<key>Track ID</key><integer>262</integer>
+			<key>Name</key><string>Dialogue 1-12</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>229504</integer>
+			<key>Total Time</key><integer>11023</integer>
+			<key>Track Number</key><integer>28</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:32Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>164</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Persistent ID</key><string>91CD7CF9E92A4555</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/28%20-%20Dialogue%201-12.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>264</key>
+		<dict>
+			<key>Track ID</key><integer>264</integer>
+			<key>Name</key><string>Rain (Female Vocal version)</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4710528</integer>
+			<key>Total Time</key><integer>204199</integer>
+			<key>Track Number</key><integer>29</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:32Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>184</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Persistent ID</key><string>30B3284140F2C030</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/29%20-%20Rain%20(Female%20Vocal%20version).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>266</key>
+		<dict>
+			<key>Track ID</key><integer>266</integer>
+			<key>Name</key><string>Dialogue 1-13</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>336000</integer>
+			<key>Total Time</key><integer>20088</integer>
+			<key>Track Number</key><integer>30</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:32Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>133</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Persistent ID</key><string>469356B396B96D68</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/30%20-%20Dialogue%201-13.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>268</key>
+		<dict>
+			<key>Track ID</key><integer>268</integer>
+			<key>Name</key><string>Green Bird</string>
+			<key>Artist</key><string>Yoko Kanno &#38; The Seatbelts</string>
+			<key>Album</key><string>Cowboy Bebop CD-Box (Disc 1) (OST)</string>
+			<key>Genre</key><string>Anime</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2361472</integer>
+			<key>Total Time</key><integer>113841</integer>
+			<key>Track Number</key><integer>31</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2005-10-22T06:23:32Z</date>
+			<key>Date Added</key><date>2009-12-09T21:58:41Z</date>
+			<key>Bit Rate</key><integer>165</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>93</integer>
+			<key>Persistent ID</key><string>366C013C09B4FDA6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Volumes/quarto/musics/music/uber/Yoko%20Kanno%20&#38;%20the%20Seatbelts%20-%20Cowboy%20Bebop%20CD-Box%20(Disc%201)%20(OST)/31%20-%20Green%20Bird.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Library</string>
+			<key>Master</key><true/>
+			<key>Playlist ID</key><integer>270</integer>
+			<key>Playlist Persistent ID</key><string>FB76D7F9F8599FC2</string>
+			<key>Visible</key><false/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>70</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>74</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>82</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>66</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>68</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>72</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>78</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>84</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>76</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>80</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>208</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>210</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>214</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>216</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>224</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>226</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>228</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>230</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>232</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>234</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>236</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>240</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>242</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>244</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>246</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>248</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>250</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>252</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>254</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>256</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>258</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>260</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>262</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>264</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>266</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>268</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Music</string>
+			<key>Playlist ID</key><integer>541</integer>
+			<key>Playlist Persistent ID</key><string>C5FE3DA79B4BAD37</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAQAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAQIbEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAQIbEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AgAIAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAACAE
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAPAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAEQAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAA
+			AAEAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>70</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>74</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>82</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>66</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>68</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>72</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>78</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>84</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>76</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>80</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>208</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>210</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>214</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>216</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>224</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>226</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>228</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>230</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>232</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>234</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>236</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>240</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>242</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>244</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>246</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>248</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>250</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>252</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>254</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>256</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>258</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>260</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>262</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>264</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>266</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>268</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Movies</string>
+			<key>Playlist ID</key><integer>646</integer>
+			<key>Playlist Persistent ID</key><string>4EC4D6CD729914EA</string>
+			<key>Distinguished Kind</key><integer>2</integer>
+			<key>Movies</key><true/>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAgAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAggAYAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>TV Shows</string>
+			<key>Playlist ID</key><integer>649</integer>
+			<key>Playlist Persistent ID</key><string>CDD01A5D06748FAE</string>
+			<key>Distinguished Kind</key><integer>3</integer>
+			<key>TV Shows</key><true/>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAgAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAggEQAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Podcasts</string>
+			<key>Playlist ID</key><integer>530</integer>
+			<key>Playlist Persistent ID</key><string>83F3136AE43D8F0F</string>
+			<key>Distinguished Kind</key><integer>10</integer>
+			<key>Podcasts</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>iTunes DJ</string>
+			<key>Playlist ID</key><integer>527</integer>
+			<key>Playlist Persistent ID</key><string>6457773593496DF8</string>
+			<key>Distinguished Kind</key><integer>22</integer>
+			<key>Party Shuffle</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>90’s Music</string>
+			<key>Playlist ID</key><integer>375</integer>
+			<key>Playlist Persistent ID</key><string>77033AC35509A379</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAB8YAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAB88AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgFNMc3QAAQAB
+			AAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAABAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAIAAAAAAAAAAA
+			AAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>70</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>74</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>82</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>66</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>68</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>72</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>78</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>84</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>76</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>80</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Classical Music</string>
+			<key>Playlist ID</key><integer>524</integer>
+			<key>Playlist Persistent ID</key><string>4C55A4C43389D67F</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAU0xzdAABAAEAAAACAAAAAQAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAADwAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnpTTHN0AAEAAQAAAAcAAAAB
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAABIAQwBsAGEAcwBzAGkAYwBhAGwAAAAIAQAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABLAGwAYQBzAHMAaQBlAGsAAAAI
+			AQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgBD
+			AGwAYQBzAHMAaQBxAHUAZQAAAAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAOAEsAbABhAHMAcwBpAGsAAAAIAQAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABDAGwAYQBzAHMAaQBjAGEAAAAI
+			AQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjCv
+			MOkwtzDDMK8AAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAADgBDAGwA4QBzAGkAYwBh
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Music Videos</string>
+			<key>Playlist ID</key><integer>521</integer>
+			<key>Playlist Persistent ID</key><string>E997CB2E30BA2047</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAQAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>My Top Rated</string>
+			<key>Playlist ID</key><integer>407</integer>
+			<key>Playlist Persistent ID</key><string>21A896FF5E307335</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAADwAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Recently Added</string>
+			<key>Playlist ID</key><integer>416</integer>
+			<key>Playlist Persistent ID</key><string>CE4E52428F77B357</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABELa4tri2uLa7//////////gAAAAAACTqA
+			La4tri2uLa4AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AgAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>70</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>74</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>82</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>66</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>68</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>72</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>78</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>84</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>76</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>80</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>208</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>210</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>214</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>216</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>224</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>226</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>228</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>230</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>232</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>234</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>236</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>240</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>242</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>244</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>246</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>248</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>250</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>252</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>254</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>256</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>258</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>260</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>262</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>264</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>266</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>268</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Recently Played</string>
+			<key>Playlist ID</key><integer>413</integer>
+			<key>Playlist Persistent ID</key><string>3E99041D842A2200</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABELa4tri2uLa7//////////gAAAAAACTqA
+			La4tri2uLa4AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AgAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Top 25 Most Played</string>
+			<key>Playlist ID</key><integer>410</integer>
+			<key>Playlist Persistent ID</key><string>D25312479D984BD2</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEBAwAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkCAAABAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAEAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>favorites</string>
+			<key>Playlist ID</key><integer>664</integer>
+			<key>Playlist Persistent ID</key><string>B4D13A1EB75C05D1</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>248</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>66</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>230</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>246</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>72</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>258</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>80</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>68</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>less favorite</string>
+			<key>Playlist ID</key><integer>697</integer>
+			<key>Playlist Persistent ID</key><string>7C54FDE3F42ABA7A</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>252</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>80</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>74</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>66</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>246</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>258</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>242</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>236</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>254</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

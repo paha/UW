@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Application Version</key><string>9.0.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/Users/paha/Music/iTunes/iTunes%20Music/</string>
+	<key>Library Persistent ID</key><string>B4B402B40E07DB83</string>
+	<key>Tracks</key>
+	<dict>
+		<key>335</key>
+		<dict>
+			<key>Track ID</key><integer>335</integer>
+			<key>Name</key><string>#137: The Book That Changed Your Life</string>
+			<key>Artist</key><string>Chicago Public Radio</string>
+			<key>Album Artist</key><string>This American Life</string>
+			<key>Album</key><string>This American Life</string>
+			<key>Genre</key><string>Podcast</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>27803926</integer>
+			<key>Total Time</key><integer>3473998</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2009-10-05T23:01:36Z</date>
+			<key>Date Added</key><date>2009-10-05T23:01:36Z</date>
+			<key>Bit Rate</key><integer>64</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>(C) 1995-2009 WBEZ Alliance, Inc. &#38; Ira Glass</string>
+			<key>Release Date</key><date>2009-10-04T23:00:00Z</date>
+			<key>Persistent ID</key><string>FED018BA929069BA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Podcast</key><true/>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/paha/Music/iTunes/iTunes%20Music/Podcasts/This%20American%20Life/%23137_%20The%20Book%20That%20Changed%20Your%20Life.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>337</key>
+		<dict>
+			<key>Track ID</key><integer>337</integer>
+			<key>Name</key><string>Here Come the ABCs</string>
+			<key>Artist</key><string>They Might Be Giants</string>
+			<key>Album Artist</key><string>They Might Be Giants</string>
+			<key>Album</key><string>Here Come the ABCs</string>
+			<key>Genre</key><string>Children's Music</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>898686</integer>
+			<key>Total Time</key><integer>11133</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>25</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2009-10-05T23:04:45Z</date>
+			<key>Date Added</key><date>2009-10-05T23:04:44Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3340716998</integer>
+			<key>Play Date UTC</key><date>2009-11-11T00:56:38Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2009-07-23T05:25:57Z</date>
+			<key>Release Date</key><date>2005-02-15T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>CF483AF4007D5533</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/paha/Music/iTunes/iTunes%20Music/They%20Might%20Be%20Giants/Here%20Come%20the%20ABCs/01%20Here%20Come%20the%20ABCs.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>339</key>
+		<dict>
+			<key>Track ID</key><integer>339</integer>
+			<key>Name</key><string>Alphabet of Nations</string>
+			<key>Artist</key><string>They Might Be Giants</string>
+			<key>Album Artist</key><string>They Might Be Giants</string>
+			<key>Album</key><string>Here Come the ABCs</string>
+			<key>Genre</key><string>Children's Music</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>3265217</integer>
+			<key>Total Time</key><integer>86720</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>25</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2009-10-05T23:04:47Z</date>
+			<key>Date Added</key><date>2009-10-05T23:04:44Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3340717085</integer>
+			<key>Play Date UTC</key><date>2009-11-11T00:58:05Z</date>
+			<key>Release Date</key><date>2005-02-15T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B04915D2D778D35D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/paha/Music/iTunes/iTunes%20Music/They%20Might%20Be%20Giants/Here%20Come%20the%20ABCs/02%20Alphabet%20of%20Nations.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>389</key>
+		<dict>
+			<key>Track ID</key><integer>389</integer>
+			<key>Name</key><string>Alphabet of Nations</string>
+			<key>Artist</key><string>They Might Be Giants</string>
+			<key>Album Artist</key><string>They Might Be Giants</string>
+			<key>Album</key><string>Here Come the ABCs</string>
+			<key>Genre</key><string>Children's Music</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>3265217</integer>
+			<key>Total Time</key><integer>86720</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>25</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2009-10-05T23:04:47Z</date>
+			<key>Date Added</key><date>2009-10-05T23:04:44Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3340717085</integer>
+			<key>Play Date UTC</key><date>2009-11-11T00:58:05Z</date>
+			<key>Release Date</key><date>2005-02-15T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B04915D2D778D35D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/paha/Music/iTunes/iTunes%20Music/They%20Might%20Be%20Giants/Here%20Come%20the%20ABCs/02%20Alphabet%20of%20Nations.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
