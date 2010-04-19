@@ -11,7 +11,10 @@
 #
 
 class Taskmaster
-  class << self    
+  class << self
+    # Task attribute is a hash with a task name as a key and Task class object as a value
+    # run_list is hash with a task name as a key and not purified, ordered list of tasks to execute
+    # completed_tasks is an tmp array of task dependencies
     attr_accessor :tasks, :run_list, :completed_tasks
     
     # Right after evaluation of the cookbook, when all task class objects are created we generate a run_list for each task
@@ -33,7 +36,7 @@ class Taskmaster
       @tasks[name] = Task.new( deps, &block )
     end
     
-    # excecution of a task(s), resetting completed_tasks array each time
+    # execution of a task(s), resetting completed_tasks array each time
     def run( *make_me )
       make_me.each do |m|
         raise "Undefined task #{m}" unless @tasks.has_key?(m)
@@ -45,8 +48,7 @@ class Taskmaster
     end
     
     def run_list_for( name )
-      # in order to demonstrate tasks that are skipped when they are a dep of multiple tasks
-      # my run_list attribute has all tasks, we need to remove duplicates
+      # run_list attribute has all tasks, we need to remove duplicates
       return @run_list[name].uniq
     end
   
@@ -61,7 +63,7 @@ class Task
     @action = block
   end
   
-  # generating a run_list 
+  # generating a run_list, it will contain all dependencies in order, even task that would need to be skipped  
   def make_list( name )
     @deps.each do |t|
       raise "ERROR: Undefined task #{t.to_s}" unless Taskmaster.tasks[t]
@@ -71,6 +73,7 @@ class Task
     Taskmaster.instance_variable_set(:@completed_tasks, c.push(name))
   end
   
+  # executing the task with dependencies, iterating over not purified list to catch tasks to skip
   def make( name )
     c = Taskmaster.completed_tasks
     Taskmaster.run_list[name].each do |t|
