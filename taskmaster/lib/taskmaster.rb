@@ -28,7 +28,7 @@ class Taskmaster
       return cook
     end
     
-    # task method where we create new Task objects
+    # task method, Task objects created. Expecting name, dependencies and action(block) 
     def task( name, *deps, &block )
       @tasks[name] = Task.new( deps, &block )
     end
