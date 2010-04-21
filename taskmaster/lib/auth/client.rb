@@ -17,6 +17,8 @@ require 'digest/md5'
 user = ARGV[0]
 passwd = ARGV[1]
 
+puts "Sending authentication request for #{user}"
+
 begin
   session = TCPSocket.new( 'localhost', 24842 )
   session.puts user

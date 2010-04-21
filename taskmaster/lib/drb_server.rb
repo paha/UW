@@ -9,6 +9,6 @@ $: << 'lib'
 require 'drb'
 require 'taskmaster'
 
-DRb.start_service( 'druby://:1234', Taskmaster.new )
+DRb.start_service( 'druby://:1234', Taskmaster )
 puts "Started DRb server: #{DRb.uri}"
 DRb.thread.join
