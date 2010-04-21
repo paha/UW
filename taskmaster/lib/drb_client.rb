@@ -9,34 +9,21 @@
 # 
 require 'drb'
 
-tm = DRbObject.new( nil, 'druby://localhost:1234' )
+DRb.start_service
+
+tm = DRbObject.new_with_uri( 'druby://localhost:1234' )
 
 tm.cookbook do
-
-  task :sandwich, :meat, :bread do
-    puts "making a sammich!"
-  end
-
-  task :meat, :clean do
-    puts "preparing the meat"
-  end
-  
-  task :bread, :clean do
-    puts "preparing the bread"
-  end
-  
-  task :clean, :mop, :handwash do
-    puts "cleaning"
-  end
-  
-  task :handwash do
-    puts "washing hands"
-  end
-  
-  task :mop do
-    puts "mopping!"
-  end
-  
+    task :test_task, :d1, :d2 do 
+      puts "not real test_task"
+    end
+    task :d1, :d2 do 
+      puts "dep one"
+    end
+    task :d2 do 
+      puts "dep two"
+    end
 end
 
-tm.run_list_for( :meat )
+# mylist = tm.run_list_for( :meat )
+# puts mylist

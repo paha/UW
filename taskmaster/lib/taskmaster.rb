@@ -22,10 +22,11 @@ class Taskmaster
       @tasks = {}
       @run_list = {}
       cook = instance_eval( &block )
+      # class_eval( &block )
       @tasks.each do |name, obj|
-        @completed_tasks = []
-        obj.make_list(name)
-        @run_list[name] = @completed_tasks
+         @completed_tasks = []
+         obj.make_list(name)
+         @run_list[name] = @completed_tasks
       end
       # returning evaluated block passed to the method. For testing.
       return cook
@@ -33,7 +34,7 @@ class Taskmaster
     
     # task method, Task objects created. Expecting name, dependencies and action(block) 
     def task( name, *deps, &block )
-      @tasks[name] = Task.new( deps, &block )
+      @tasks[name] = Taskmaster::Task.new( deps, &block )
     end
     
     # execution of a task(s), resetting completed_tasks array each time
@@ -51,40 +52,40 @@ class Taskmaster
       # run_list attribute has all tasks, we need to remove duplicates
       return @run_list[name].uniq
     end
-  
-  end
-end
+    
+    class Taskmaster::Task
+      attr_accessor :deps, :action
 
-class Task
-  attr_accessor :deps, :action
-  
-  def initialize( deps, &block )
-    @deps = deps
-    @action = block
-  end
-  
-  # generating a run_list, it will contain all dependencies in order, even task that would need to be skipped  
-  def make_list( name )
-    @deps.each do |t|
-      raise "ERROR: Undefined task #{t.to_s}" unless Taskmaster.tasks[t]
-      Taskmaster.tasks[t].make_list(t)
-    end
-    c = Taskmaster.completed_tasks
-    Taskmaster.instance_variable_set(:@completed_tasks, c.push(name))
-  end
-  
-  # executing the task with dependencies, iterating over not purified list to catch tasks to skip
-  def make( name )
-    c = Taskmaster.completed_tasks
-    Taskmaster.run_list[name].each do |t|
-      if c.include?(t)
-        puts "** skipping completed task #{t}"
-      else
-        puts "\t** executing dependency #{t} of #{name}" unless t == name
-        Taskmaster.tasks[t].action.call
-        Taskmaster.instance_variable_set(:@completed_tasks, c.push(t))
+      def initialize( deps, &block )
+        @deps = deps
+        @action = block
       end
+
+      # generating a run_list, it will contain all dependencies in order, even task that would need to be skipped  
+      def make_list( name )
+        @deps.each do |t|
+          raise "ERROR: Undefined task #{t.to_s}" unless Taskmaster.tasks[t]
+          Taskmaster.tasks[t].make_list(t)
+        end
+        c = Taskmaster.completed_tasks
+        Taskmaster.instance_variable_set(:@completed_tasks, c.push(name))
+      end
+
+      # executing the task with dependencies, iterating over not purified list to catch tasks to skip
+      def make( name )
+        c = Taskmaster.completed_tasks
+        Taskmaster.run_list[name].each do |t|
+          if c.include?(t)
+            puts "** skipping completed task #{t}"
+          else
+            puts "\t** executing dependency #{t} of #{name}" unless t == name
+            Taskmaster.tasks[t].action.call
+            Taskmaster.instance_variable_set(:@completed_tasks, c.push(t))
+          end
+        end
+      end
+
     end
+    
   end
-  
 end

@@ -10,6 +10,8 @@ require "test/unit"
 require "taskmaster"
 
 class TestTaskmaster < Test::Unit::TestCase
+  
+  # define a simple cookbook
   def setup
     Taskmaster.cookbook do
       task :test_task, :d1, :d2 do 
@@ -19,14 +21,15 @@ class TestTaskmaster < Test::Unit::TestCase
         puts "dep one"
       end
       task :d2 do 
-        puts "dep two" 
+        puts "dep two"
       end
     end
   end
   
+  # 
   def test_cookbook_method
     expected = "chef is good"
-    actual = Taskmaster.cookbook { "chef is good" }
+    actual = Taskmaster.cookbook { puts "chef is good"}
     assert_equal(expected, actual)
   end
   
@@ -57,7 +60,7 @@ class TestTaskmaster < Test::Unit::TestCase
   end
   
   def test_task_object
-    expected = Task
+    expected = Taskmaster::Task
     actual = Taskmaster.tasks[:d1]
     assert_kind_of(expected, actual)
   end
