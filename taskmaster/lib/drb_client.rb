@@ -25,5 +25,5 @@ tm.cookbook do
     end
 end
 
-# mylist = tm.run_list_for( :meat )
+# mylist = tm.run_list_for( :d1 )
 # puts mylist

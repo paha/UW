@@ -29,7 +29,7 @@ class TestTaskmaster < Test::Unit::TestCase
   # 
   def test_cookbook_method
     expected = "chef is good"
-    actual = Taskmaster.cookbook { puts "chef is good"}
+    actual = Taskmaster.cookbook { "chef is good" }
     assert_equal(expected, actual)
   end
   
@@ -96,7 +96,7 @@ class TestTaskmaster < Test::Unit::TestCase
   
   def test_run_method_raise
     exception = assert_raise( RuntimeError ){ Taskmaster.run(:fake) }
-    assert_match ( /Undefined task fake/, exception.message)
+    assert_match( /Undefined task fake/, exception.message)
   end
   
 end

@@ -13,35 +13,23 @@
 
 require 'yaml'
 require 'socket'
-require 'digest/md5'
+require File.dirname(__FILE__) + '/auth_server'
 
 port = 24842
-auth_data = YAML::load( File.read('passwd') )
+data = YAML::load( File.read( File.dirname(__FILE__) + '/passwd' ))
 
-auth_server = TCPServer.new( port )
+auth_server = TCPServer.new(port)
 
 loop do
   puts "\nReady to accept new connections. Listening on port: #{port}. #{Time.now}"
   session = auth_server.accept
   puts "--- #{session.peeraddr[2]} connected. #{Time.now}"
-  username = session.gets.chomp
+  username = AuthServer.get_username( session, data )
+  next if username == 'failed'
   puts "--- Received \"#{username}\" for username. #{Time.now}"
-  unless auth_data[username] 
-    puts "FAILED. Unknown username provided. Closing session with #{session.peeraddr[2]} #{Time.now}"
-    session.puts "Unknown user \"#{username}\""
-    session.close
-    next
-  end
-  salt = Digest::MD5.hexdigest( username + Time.now.strftime('%M%S') + rand(300).to_s )
-  session.puts salt
-  passwd_salty = session.gets.chomp
-  puts "--- Received salty password. #{Time.now}"
-  if passwd_salty == Digest::MD5.hexdigest( salt + auth_data[username] )
-    session.puts "Successfully authenticated \"#{username}\""
-    puts "--- \"#{username}\" successfully authenticated. Closing session. #{Time.now}"
-  else
-    session.puts "Failed. Password mismatch."
-    puts "FAILED. password mismatch. Closing session. #{Time.now}"
-  end
-  session.close
+  AuthServer.make_salt( session )
+  puts "--- Sent salt to the client. #{Time.now}"
+  AuthServer.get_salty_passwd( session )
+  puts "--- Recieved salty password from the client. #{Time.now}"
+  AuthServer.check_passwd( session, data )
 end
