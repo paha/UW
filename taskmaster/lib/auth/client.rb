@@ -11,9 +11,7 @@
 # Authentication client
 # 
 
-require 'socket'
-require 'digest/md5'
-require File.dirname(__FILE__) + 'auth_client'
+require File.dirname(__FILE__) + '/auth_client'
 
 unless ARGV.length == 2
   puts "Expecting username and password."

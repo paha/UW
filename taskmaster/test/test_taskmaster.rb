@@ -15,7 +15,7 @@ class TestTaskmaster < Test::Unit::TestCase
   def setup
     Taskmaster.cookbook do
       task :test_task, :d1, :d2 do 
-        puts "not real test_task"
+        puts "test_task has deps"
       end
       task :d1, :d2 do 
         puts "dep one"

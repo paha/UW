@@ -14,25 +14,25 @@ class Taskmaster
   class << self
     # Task attribute is a hash with a task name as a key and Task class object as a value
     # run_list is hash with a task name as a key and not purified, ordered list of tasks to execute
-    # completed_tasks is an tmp array of task dependencies
+    # completed_tasks is an tmp array of tasks
     attr_accessor :tasks, :run_list, :completed_tasks
     
-    # Right after evaluation of the cookbook, when all task class objects are created we generate a run_list for each task
-    def cookbook( &block ) 
+    # After evaluation of the cookbook, when all task class objects are created, generating run_lists
+    def cookbook( &block )
+      raise "Cookbook accepts a block" unless block
       @tasks = {}
       @run_list = {}
       cook = instance_eval( &block )
-      # class_eval( &block )
       @tasks.each do |name, obj|
          @completed_tasks = []
          obj.make_list(name)
          @run_list[name] = @completed_tasks
       end
-      # returning evaluated block passed to the method. For testing.
+      # For testing.
       return cook
     end
     
-    # task method, Task objects created. Expecting name, dependencies and action(block) 
+    # task method makes task objects.
     def task( name, *deps, &block )
       @tasks[name] = Taskmaster::Task.new( deps, &block )
     end
@@ -61,14 +61,14 @@ class Taskmaster
         @action = block
       end
 
-      # generating a run_list, it will contain all dependencies in order, even task that would need to be skipped  
+      # generating a run_list, it will contain all dependencies in order, even tasks that would need to be skipped  
       def make_list( name )
         @deps.each do |t|
-          raise "ERROR: Undefined task #{t.to_s}" unless Taskmaster.tasks[t]
+          raise "ERROR: Undefined task #{t}" unless Taskmaster.tasks[t]
           Taskmaster.tasks[t].make_list(t)
         end
         c = Taskmaster.completed_tasks
-        Taskmaster.instance_variable_set(:@completed_tasks, c.push(name))
+        Taskmaster.instance_variable_set( :@completed_tasks, c.push(name) )
       end
 
       # executing the task with dependencies, iterating over not purified list to catch tasks to skip
