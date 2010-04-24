@@ -4,8 +4,8 @@
 # Student Name: Pavel Snagovsky 
 # Homework Week: 3
 #
-##### 
-# DRb client 
+
+# DRb client test 
 # 
 require 'drb'
 
@@ -24,6 +24,3 @@ tm.cookbook do
       puts "dep two"
     end
 end
-
-# mylist = tm.run_list_for( :d1 )
-# puts mylist

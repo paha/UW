@@ -9,19 +9,16 @@ $: << 'lib'
 require "test/unit"
 require "rubygems"
 require "mocha"
-require "auth/client2"
+require "auth/auth_client_class"
 
 class TestAuthClient < Test::Unit::TestCase
   
   def setup
-    # no TCPSocket.puts by default
-    @session = stubs( :puts )
-    # authentication happens at initialisation, skipping it by default    
+    @session = stubs( :puts )   
     AuthClient.any_instance.stubs( :authenticate )
-    # mocking new socket connection
     TCPSocket.expects( :new ).returns( @session )
-    # Initialising the client
-    assert @cl = AuthClient.new( 'user', 'passwd' )
+
+    @cl = AuthClient.new( 'user', 'passwd' )
   end
   
   def test_verify_salt

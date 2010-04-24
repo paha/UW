@@ -5,6 +5,8 @@
 # Homework Week: 3
 #
 
+# DRb server test
+
 $: << 'lib'
 require 'drb'
 require 'taskmaster'

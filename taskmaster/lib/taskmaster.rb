@@ -24,7 +24,6 @@ class Taskmaster
       @run_list = {}
       cook = instance_eval( &block )
       generate_run_lists
-      # For testing.
       return cook
     end
     
