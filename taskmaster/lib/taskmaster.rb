@@ -12,7 +12,7 @@
 
 class Taskmaster
   class << self
-    # Task attribute is a hash with a task name as a key and Task class object as a value
+    # tasks attribute is a hash with a task name as a key and Task class object as a value
     # run_list is hash with a task name as a key and not purified, ordered list of tasks to execute
     # completed_tasks is an tmp array of tasks
     attr_accessor :tasks, :run_list, :completed_tasks
@@ -23,13 +23,18 @@ class Taskmaster
       @tasks = {}
       @run_list = {}
       cook = instance_eval( &block )
-      @tasks.each do |name, obj|
-         @completed_tasks = []
-         obj.make_list(name)
-         @run_list[name] = @completed_tasks
-      end
+      generate_run_lists
       # For testing.
       return cook
+    end
+    
+    # generating run_list for each task
+    def generate_run_lists
+      @tasks.each do |name, obj|
+        @completed_tasks = []
+        obj.make_list(name)
+        @run_list[name] = @completed_tasks
+      end
     end
     
     # task method makes task objects.

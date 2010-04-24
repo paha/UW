@@ -14,9 +14,13 @@ require "auth/client2"
 class TestAuthClient < Test::Unit::TestCase
   
   def setup
-    @session = stubs( :puts )    
+    # no TCPSocket.puts by default
+    @session = stubs( :puts )
+    # authentication happens at initialisation, skipping it by default    
     AuthClient.any_instance.stubs( :authenticate )
+    # mocking new socket connection
     TCPSocket.expects( :new ).returns( @session )
+    # Initialising the client
     assert @cl = AuthClient.new( 'user', 'passwd' )
   end
   

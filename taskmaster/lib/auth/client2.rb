@@ -16,51 +16,62 @@ require 'digest/md5'
 
 user = ARGV[0]
 passwd = ARGV[1]
-# ***
-# AuthClinet.new( user, passwd )
 
 # Authentication client class
 class AuthClient
   
-  def initialize( user, passwd, host = 'localhost', port = 24842 )
+  HOST = 'localhost'
+  PORT = 24842
+  
+  def initialize( user, passwd, debug = true )
+    @debug = debug
     begin
-      @session = TCPSocket.new( host, port )
+      @con = TCPSocket.new( HOST, PORT )
     rescue
-      puts "Failed to connect to #{host}:#{port}"
+      debug_msg "Failed to connect to #{HOST}:#{PORT}"
       exit 1
     end
-    puts "--- Successfully connected to auth server. #{Time.now}"  
+    debug_msg "--- Successfully connected to auth server. #{Time.now}"  
     authenticate( user, passwd )  
   end
   
+  # output debug messages to stdout, unless debug isn't 'true'. Wasn't sure if messages should go to a file or not.
+  def debug_msg( str )
+    if @debug == true
+      puts str
+    end
+  end
+  
   def get_salt( user )
-    @session.puts user
-    return @session.gets.chomp
+    @con.puts user
+    return @con.gets.chomp
   end
   
   def verify_salt( salt )
     # Auth server will return NOT AUTHORIZED, if it wasn't able to verify the user
     if salt == "NOT AUTHORIZED" or salt.length != 32
       # puts "FAILED. Recived invalid salt"
-      puts salt
+      debug_msg salt
       return 'failed'
     end
   end
   
   def send_salty_passwd( passwd, salt )
     passwd_hash = Digest::MD5.hexdigest( salt + passwd )
-    @session.puts passwd_hash
-    return @session.gets.chomp
+    @con.puts passwd_hash
+    return @con.gets.chomp
   end
   
   def authenticate( user, passwd )
-    puts "--- Sending username \"#{user}\""
-    salt = @session.get_salt( user )
-    exit 1 if @session.verify_salt( salt ) == 'failed'
-    puts "--- Recieved \"salt\" from the server. Cooking..."
-    puts "--- Sending encrypted passwd"
-    result = @session.send_salty_passwd( passwd, salt )
-    puts "#{result}"
+    debug_msg "--- Sending username \"#{user}\""
+    salt = get_salt( user )
+    exit 1 if verify_salt( salt ) == 'failed'
+    debug_msg "--- Recieved \"salt\" from the server. Cooking..."
+    debug_msg "--- Sending encrypted passwd"
+    result = send_salty_passwd( passwd, salt )
+    debug_msg "#{result}"
   end
   
 end
+
+# AuthClient.new( user, passwd )
