@@ -14,7 +14,12 @@ class TestServer < Test::Unit::TestCase
   }
 
   def setup
-    @tcp_server = mock()
+    @tcp_server = mock( "tcp_server" )
+    @session = stub( 'setup_session', 
+      :puts => 'send', 
+      :gets => 'receive', 
+      :close => 'end' )
+      
     TCPServer.stubs( :new ).returns( @tcp_server )
 
     YAML.expects( :load_file ).
@@ -22,6 +27,12 @@ class TestServer < Test::Unit::TestCase
       returns( KNOWN_CREDS )
 
     @server = Server.new
+    # testing converse method we just want to have a fake session
+    @server.instance_variable_set(:@session, @session)
+    
+    @user = KNOWN_CREDS.keys.first
+    @salt = @server.generate_salt
+    @while_loop = sequence( 'while_loop' ) 
   end
 
   def test_can_read_passwd_file
@@ -49,35 +60,32 @@ class TestServer < Test::Unit::TestCase
   end
 
   def test_can_calculate_auth_string
-    user = KNOWN_CREDS.keys.first
-    salt = @server.generate_salt
 
-    actual = @server.calculate_auth_string( salt, user )
-    expected = @server.hash( salt, KNOWN_CREDS.values.first )
+    actual = @server.calculate_auth_string( @salt, @user )
+    expected = @server.hash( @salt, KNOWN_CREDS.values.first )
 
     assert_equal expected, actual
   end
 
   def test_can_generate_salt
     actual = @server.generate_salt
+    
     assert_kind_of String, actual
     assert_equal 32, actual.length
   end
 
   def test_can_check_credentials
-    username = KNOWN_CREDS.keys.first
-    salt = @server.generate_salt
-    auth_string = @server.calculate_auth_string( salt, username )
+    auth_string = @server.calculate_auth_string( @salt, @user )
 
     assert @server.authenticate?(
-      username,
-      salt,
+      @user,
+      @salt,
       auth_string
     )
   end
 
   def test_authenticate_with_mocks
-    user = "blah"
+    user = "blah" 
     salt = "foo"
     auth = "bees"
     @server.expects(:calculate_auth_string).with( salt, user ).returns( auth )
@@ -96,53 +104,57 @@ class TestServer < Test::Unit::TestCase
     assert_not_equal first, second
   end
 
-  def test_can_start_server
-    tcp_server = mock( 'tcp server' )
-    tcp_server.stubs( :accept ).returns( false )
-    TCPServer.expects( :new ).with( 24842 ).returns( tcp_server )
+  def test_can_start_server      
+    @tcp_server.expects( :accept ).returns( @session ).in_sequence( @while_loop )
+    @tcp_server.expects( :accept ).returns( false ).in_sequence( @while_loop )
+    
     @server.start
   end
-
-  def test_can_start_server_on_alternate_port
-    TCPServer.expects( :new ).with( 1111 ).returns( @tcp_server )
+  
+  def test_can_start_server_on_alternate_port       
+    @tcp_server.expects( :accept ).returns( @session ).in_sequence( @while_loop )
+    @tcp_server.expects( :accept ).returns( false ).in_sequence( @while_loop )
+    
     @server.start( 1111 )
   end
-
-
+  
+  
   def test_can_converse
-    session = mock( 'session' )
-    @tcp_server.expects( :accept ).returns( session )
-
-    @server.start
-
     to_say  = "hello"
     to_hear = "wassup"
-
-    session.expects( :puts ).with( to_say )
-    session.expects( :gets ).returns( to_hear )
-
+  
+    @session.expects( :puts ).with( to_say )
+    @session.expects( :gets ).returns( to_hear )
+  
     assert_equal to_hear, @server.converse( to_say )
   end
-
+  
   def test_converse_can_just_listen
-    session = mock( 'session' )
-    session.expects( :gets ).returns( "foo" )
-    @tcp_server.expects( :accept ).returns( session )
-
-    @server.start
+    @session.expects( :gets ).returns( "foo" )
+    
     assert_equal "foo", @server.converse
   end
 
   def test_full_transaction
-    session = mock( 'session' )
-    @tcp_server.expects( :accept ).returns( session )
-
-    @server.start
-
-      # 1) get the username
-      # 2) send the salt
-      # 3) get auth string
-      # 4) check the auth string
-      # 5) return results
+    auth = @server.calculate_auth_string( @salt, @user )
+    # we have to use our salt for the authentication sequence
+    @server.expects( :generate_salt ).returns( @salt )
+    
+    tcp_server = mock( 'server' )
+    session = stub( 'fulltest_session',
+      :puts => 'da',
+      :close => 'net')
+  
+    tcp_server.expects( :accept ).returns( session ).in_sequence( @while_loop )
+    tcp_server.expects( :accept ).returns( false ).in_sequence( @while_loop )
+    
+    # We only care about session.gets to test our transaction
+    session.expects( :gets ).returns( auth )  
+    session.expects( :gets ).returns( @user )  
+  
+    TCPServer.expects( :new ).returns( tcp_server )
+       
+    assert_equal "AUTHORIZED", @server.start  
   end
+  
 end

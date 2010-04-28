@@ -38,14 +38,20 @@ class Server
     server = TCPServer.new( port )
 
     while @session = server.accept
-      # event loop
-      #
-      # 1) get the username
-      # 2) send the salt
-      # 3) get auth string
-      # 4) check the auth string
-      # 5) return results
+      username = converse()
+      salt = generate_salt
+      auth_string = converse( salt )
+      if authenticate?( username, salt, auth_string )
+        result = "AUTHORIZED"
+      else
+        result = "NOT AUTHORIZED"
+      end
+      @session.puts( result )
+      @session.close
     end
+    
+    # returning last result
+    return result
 
   end
 
@@ -53,7 +59,7 @@ class Server
   # and then reads a response
   def converse( msg = nil )
     @session.puts msg if msg
-    return @session.gets
+    return @session.gets.chomp
   end
 
 end
