@@ -37,6 +37,7 @@ class TestServer < Test::Unit::TestCase
 
   def test_can_read_passwd_file
     server_creds = @server.instance_variable_get( :@creds )
+    
     assert_kind_of Hash, server_creds
     assert_equal KNOWN_CREDS, server_creds
   end
@@ -108,14 +109,14 @@ class TestServer < Test::Unit::TestCase
     @tcp_server.expects( :accept ).returns( @session ).in_sequence( @while_loop )
     @tcp_server.expects( :accept ).returns( false ).in_sequence( @while_loop )
     
-    @server.start
+    assert @server.start
   end
   
   def test_can_start_server_on_alternate_port       
     @tcp_server.expects( :accept ).returns( @session ).in_sequence( @while_loop )
     @tcp_server.expects( :accept ).returns( false ).in_sequence( @while_loop )
     
-    @server.start( 1111 )
+    assert @server.start( 1111 )
   end
   
   
