@@ -9,7 +9,7 @@ $: << 'lib'
 require "test/unit"
 require "rubygems"
 require "mocha"
-require "auth/auth_client_class"
+require "auth/client"
 
 class TestAuthClient < Test::Unit::TestCase
   
@@ -24,7 +24,7 @@ class TestAuthClient < Test::Unit::TestCase
   def test_verify_salt
     salt = Digest::MD5.hexdigest( "str" )
     
-    actual = @cl.verify_salt( salt )
+    actual = @cl.verify_salt?( salt )
     assert_not_equal( 'failed', actual )
   end
   

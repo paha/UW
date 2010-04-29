@@ -14,7 +14,7 @@ require "test/unit"
 require "rubygems"
 require "mocha"
 # require 'test/zentest_assertions'
-require "auth/auth_server_class"
+require "auth/server"
 
 class TestAuthServer < Test::Unit::TestCase
  
