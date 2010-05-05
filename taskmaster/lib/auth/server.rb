@@ -1,11 +1,10 @@
 #!/usr/bin/env ruby
 
 ###
-# Student Name: Pavel Snagovsky 
-# Homework Week: 3
+# Student: Pavel Snagovsky 
+# Homework Week: 5
 #
 ###
-# Description:
 # Authentication server
 # 
 

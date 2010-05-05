@@ -15,7 +15,7 @@ class LogResolver
   
   def initialize( infile, outfile, max_threads = 10 )
     @outfile = File.open( outfile, 'w' )
-    @max_threads = max_threads
+    @max_threads = max_threads.to_i
     @resolved = {}
     @infile = infile
     @queue = Queue.new
@@ -39,8 +39,9 @@ class LogResolver
     threads = []
     @max_threads.times do
       threads << Thread.new do
-        until @queue.empty? 
-          ip = @queue.pop
+        while ip = @queue.pop
+          # puts "Resolving #{ip}, threads running: #{Thread.list.size}"
+          
           # call resolve_name unless it was resolved
           resolve_name( ip ) if @resolved[ ip ] == 1
         end
@@ -77,5 +78,5 @@ if __FILE__ == $0
   
   ARGV[2] ||= 10
 
-  LogResolver.new( ARGV[0], ARGV[1] ).resolve!
+  LogResolver.new( ARGV[0], ARGV[1], ARGV[2] ).resolve!
 end
