@@ -12,6 +12,7 @@
 $: << 'lib'
 require "test/unit"
 require "taskmaster"
+require "task"
 
 class TestTaskmaster < Test::Unit::TestCase
   

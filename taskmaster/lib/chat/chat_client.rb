@@ -19,8 +19,7 @@ class ChatClient
       puts "Failed to connect to #{host}:#{port}"
       exit 1
     end
-    puts "Connecting to #{host}. To exit the client: \'exit\'"
-    chat
+    puts "Connected to ChatServer on #{host}. To exit the client: \'exit\'"
   end
   
   def chat
@@ -31,7 +30,7 @@ class ChatClient
     end
      
     outgoing = Thread.new do
-      while msg = gets.chomp
+      while msg = $stdin.gets.chomp
         exit 0 if msg =~ /disconnect|exit|^quit/
         begin
           @session.puts( msg )

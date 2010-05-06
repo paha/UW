@@ -23,28 +23,28 @@ class ChatServer < GServer
     new_user = "user#{@id}"
     @clients[ new_user ] = client
     @id += 1
-    puts "-- New connection from #{client.peeraddr[2]}. Assigned #{new_user}"
-    client.print( "Welcome. Assigned nick - #{new_user}.\nEnter: /help for Help.\n" )
+    server_log "New connection from #{client.peeraddr[2]}. Assigned #{new_user}"
+    client.puts "Welcome. Assigned nick - #{new_user}.\nEnter: /help for Help."
     while msg = client.gets
       nick = @clients.invert[ client ]
-      puts "-- Msg from #{nick} >> #{msg.chomp}"
+      server_log "Msg from #{nick} >> #{msg.chomp}"
       begin
         if msg =~ /^\//
           process_command( nick, msg )
         else
-          process_input( nick, msg )
+          process_msg( nick, msg )
         end
       rescue Exception => e
         puts e.message
+        exit 1
       end
-      # break if client.closed?
     end
   end 
   
-  def process_input( sender, msg )
+  def process_msg( sender, msg )
     @clients.each do |nick, session|
       if session.closed?
-        @clients.delete( nick )
+        client_left( nick )
         next
       end
       next if sender == nick
@@ -70,8 +70,19 @@ class ChatServer < GServer
       server_msg = "Unsupported command called."
       for_server = "#{sender} called #{msg}"
     end
-    puts "-- #{server_msg} #{for_server}"
-    process_input( "ChatServer", server_msg)
+    server_log( "#{server_msg} #{for_server}" )
+    process_msg( "ChatServer", server_msg)
+  end
+  
+  def client_left( nick )
+    @clients.delete( nick )
+    server_msg = "#{nick} left the Server."
+    server_log( server_msg )
+    process_msg( "ChatServer", server_msg )
+  end
+
+  def server_log( log_msg )
+    puts "[#{Time.now}] ChatServer: #{log_msg}"
   end
   
 end

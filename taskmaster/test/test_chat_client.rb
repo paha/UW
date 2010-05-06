@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 ###
-# Student Name: Pavel Snagovsky
-# Homework Week: 3
+# Student: Pavel Snagovsky
+# Homework Week: 5
 #
 
 ###
@@ -17,7 +17,12 @@ require "mocha"
 require "chat/chat_client"
 
 class TestChatClient < Test::Unit::TestCase
-  def test_client_can_connect
-    #ChatClient.new
+
+  def setup
+    @session = stubs( :puts, :gets )  
+    TCPSocket.expects( :new ).returns( @session )
+
+    @chat_client = ChatClient.new( "localhost", 12345 )
   end
+
 end

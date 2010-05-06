@@ -24,19 +24,23 @@ class AuthServer
   
   # Authentication sequence with debug messages, error mesgs will come from corresponding methods
   def auth_sequence( port, data, auth_server )
-    while true
-      debug_msg "\nReady to accept new connections. Listening on port: #{port}. #{Time.now}"
-      session = auth_server.accept
-      debug_msg "--- #{session.peeraddr[2]} connected. #{Time.now}"
-      user = get_username( session, data )
-      next if user == false
-      debug_msg "--- Received \"#{user}\" for username. #{Time.now}"
-      salt = send_salt( session, user )
-      debug_msg "--- Sent salt to the client. #{Time.now}"
-      passwd_salty = get_salty_passwd( session )
-      debug_msg "--- Received salty password from the client. #{Time.now}"
-      authenticate?( session, salt, passwd_salty, user, data )
+    threads = []
+    while session = auth_server.accept
+      threads << Thread.new do
+        # debug_msg "\nReady to accept new connections. Listening on port: #{port}. #{Time.now}"
+        # session = auth_server.accept
+        debug_msg "--- #{session.peeraddr[2]} connected. #{Time.now}"
+        user = get_username( session, data )
+        next if user == false
+        debug_msg "--- Received \"#{user}\" for username. #{Time.now}"
+        salt = send_salt( session, user )
+        debug_msg "--- Sent salt to the client. #{Time.now}"
+        passwd_salty = get_salty_passwd( session )
+        debug_msg "--- Received salty password from the client. #{Time.now}"
+        authenticate?( session, salt, passwd_salty, user, data )
+      end
     end
+    threads.each { |t| t.join }
   end
   
   # output debug messages to stdout, unless debug isn't 'true'. Wasn't sure if other loging method was expected.
@@ -84,6 +88,7 @@ class AuthServer
       result "NOT AUTHORIZED"
       debug_msg "NOT AUTHORIZED \"#{user}\". password mismatch. Closing session. #{Time.now}"
     end
+    sleep 10
     session.puts result
     session.close
     return result

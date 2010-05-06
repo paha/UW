@@ -103,13 +103,5 @@ class TestAuthServer < Test::Unit::TestCase
   #   
   #   assert as = AuthServer.new( PORT, false ) 
   # end
-  
-  # def test_debug_msg
-  #   msg = "Test msg"
-  #   out, err = util_capture do 
-  #     @as.debug_msg( msg )
-  #   end
-  #   assert_equal( msg, out.string )
-  # end
  
 end
