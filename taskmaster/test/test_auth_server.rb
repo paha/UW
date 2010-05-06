@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 ###
 # Student Name: Pavel Snagovsky
 # Homework Week: 3
@@ -9,7 +7,6 @@
 # Authentication Server tests
 # 
 
-$: << 'lib'
 require "test/unit"
 require "rubygems"
 require "mocha"
@@ -21,16 +18,18 @@ class TestAuthServer < Test::Unit::TestCase
   DATA = { 'bob' => 'pa$$wd' }
   PORT = 12345
   
-  # Initializing AuthServer class, skipping authentication sequece
+  # Testing all the methods except for the authentication sequence
   def setup
+    # mocking session, will be overwriten in other tests as needed
     @session = stub( 'session_setup',
       :puts => "send", 
       :gets => "receive", 
-      :close => "bye" )
+      :close => "closed" )
     
     YAML.stubs( :load_file ).returns( DATA )
     TCPServer.stubs( :new ).returns( @server )   
     
+    # bypass authentication sequence
     AuthServer.any_instance.stubs( :auth_sequence ).
       with( PORT, DATA, @server )
     
@@ -74,34 +73,5 @@ class TestAuthServer < Test::Unit::TestCase
     actual = @as.get_salty_passwd( @session )
     assert_equal( some_md5, actual )
   end
-
-  def teardown
-    # We are done with that setup
-  end
-  
-  # def test_authentication_sequence_with_valid_data   
-  #   server = mock( 'server' )
-  #   session = stub( 'session',
-  #     :puts => "send", 
-  #     :gets => "receive", 
-  #     :close => "bye" )
-  #   while_loop = sequence( 'while_loop' )
-  #   server.expects( :accept ).returns( session ).in_sequence( while_loop )
-  #   server.expects( :accept ).returns( false ).in_sequence( while_loop )
-  #   
-  #   username = DATA.keys.first 
-  #   # salt = as.send_salt( session, username )
-  #   salt = Digest::MD5.hexdigest( username + Time.now.strftime('%M%S') + rand(300).to_s )
-  #   passwd_salty = Digest::MD5.hexdigest( salt + DATA[username] )
-  #   
-  #   session.expects( :gets ).returns( username )
-  #   session.expects( :puts ).returns( 'salt' )
-  #   session.expects( :gets ).returns( passwd_salty )
-  #   
-  #   YAML.expects( :load_file ).returns( DATA )
-  #   TCPServer.expects( :new ).returns( server )
-  #   
-  #   assert as = AuthServer.new( PORT, false ) 
-  # end
  
 end

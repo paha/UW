@@ -1,11 +1,8 @@
-#!/usr/bin/env ruby
-
 ###
-# Student Name: Pavel Snagovsky
+# Student: Pavel Snagovsky
 # Homework Week: 3
 #
 
-$: << 'lib'
 require "test/unit"
 require "rubygems"
 require "mocha"

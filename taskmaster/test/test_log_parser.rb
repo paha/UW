@@ -1,10 +1,16 @@
-#!/usr/bin/env ruby
+###
+# Student: Pavel Snagovsky
+# Homework Week: 5
+#
+
+###
+# log parser tests
+#
 
 require 'test/unit'
 require 'rubygems'
 require 'mocha'
 
-$: << 'lib'
 require 'logParser/log_parser'
 
 class TestLogParser < Test::Unit::TestCase
@@ -47,7 +53,7 @@ class TestLogParser < Test::Unit::TestCase
     thread.expects( :join )
     Thread.expects( :new ).returns( thread )
 
-    @resolver.resolve_ips
+    assert @resolver.resolve_ips
   end
 
   def test_unresolvable_and_error
@@ -78,16 +84,16 @@ class TestLogParser < Test::Unit::TestCase
   end
 
   def test_resolve!
-    # for write_data
+    # for write_data()
     @output.stubs( :puts )
     File.expects( :open ).with( 'input' ).returns( @input )
   
-    # for resolve_ips
+    # for resolve_ips()
     thread = mock( 'thread' )
     thread.expects( :join )
     Thread.expects( :new ).returns( thread )
     
-    # for get_ips  
+    # for get_ips()
     @input.stubs( :each_line ).multiple_yields( *@data_lines)
     File.expects( :open ).with( 'input' ).returns( @input )
 

@@ -16,8 +16,7 @@ class ChatClient
     begin
       @session = TCPSocket.new( host, port )
     rescue
-      puts "Failed to connect to #{host}:#{port}"
-      exit 1
+      raise "Failed to connect to #{host}:#{port}"
     end
     puts "Connected to ChatServer on #{host}. To exit the client: \'exit\'"
   end
@@ -35,8 +34,7 @@ class ChatClient
         begin
           @session.puts( msg )
         rescue
-          puts "Failed to communicate to the Chat server. Exiting."
-          exit 1
+          raise "Failed to communicate to the Chat server. Exiting."
         end
       end
     end
