@@ -8,7 +8,7 @@ end
 require 'uwchat/uwchat_common'
 require 'uwchat/server'
 require 'uwchat/server_auth'
-require 'uwchat/server_cmd'
+require 'uwchat/server_command'
 require 'uwchat/client'
 require 'uwchat/client_auth'
 

@@ -177,7 +177,7 @@ class TestUwchatServer < Test::Unit::TestCase
     assert_nil actual
   end
   
-  # Testing default commands
+  # Testing default commands, more testing is in test_uwchat_server_command. 
   def test_client_quit_command
     # Replacing mocked command with the real commands
     @server.instance_variable_set( :@my_commands, @real_commands )
